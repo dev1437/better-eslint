@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-better-eslint",
+  "name": "@dev1437/eslint-plugin-better-eslint",
   "version": "0.0.0",
   "description": "Standard ESLint rules with max length capabilities ",
   "keywords": [
@@ -30,5 +30,18 @@
   "peerDependencies": {
     "eslint": ">=7"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev1437/better-eslint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dev1437/better-eslint/issues"
+  },
+  "homepage": "https://github.com/dev1437/better-eslint#readme"
 }

@@ -11,7 +11,7 @@
 //------------------------------------------------------------------------------
 
  const rule = require("../../../lib/rules/max-len-newline-perchained-call"),
-     { RuleTester } = require("../../../lib/rule-tester");
+  RuleTester = require("eslint").RuleTester;
 
 //------------------------------------------------------------------------------
 // Tests
