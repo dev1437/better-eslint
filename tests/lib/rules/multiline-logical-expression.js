@@ -42,7 +42,7 @@ ruleTester.run("multiline-logical-expression", rule, {
       `,
       output: `
       if(someNumber === 0 &&
-         withSeveralConditions) {
+       withSeveralConditions) {
         doSomething();
       }
       `,
@@ -63,8 +63,8 @@ ruleTester.run("multiline-logical-expression", rule, {
       `,
       output: `
       if(someNumber === 0 &&
-         withSeveralConditions ||
-         anotherExpression) {
+       withSeveralConditions ||
+       anotherExpression) {
         doSomething();
       }
       `,
@@ -90,9 +90,9 @@ ruleTester.run("multiline-logical-expression", rule, {
       `,
       output: `
       if(someNumber === 0 &&
-         withSeveralConditions ||
-         anotherExpression &&
-         extraExpression) {
+       withSeveralConditions ||
+       anotherExpression &&
+       extraExpression) {
         doSomething();
       }
       `,
