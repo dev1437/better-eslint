@@ -11,11 +11,14 @@
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint . --fix",
     "test": "mocha tests --recursive"
   },
   "dependencies": {
     "chai": "^4.3.6",
+    "escape-string-regexp": "^5.0.0",
+    "espree": "^9.4.0",
+    "esutils": "^2.0.3",
     "requireindex": "^1.2.0"
   },
   "devDependencies": {
