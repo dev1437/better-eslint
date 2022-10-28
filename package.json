@@ -1,6 +1,6 @@
 {
   "name": "@dev1437/eslint-plugin-better-eslint",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Standard ESLint rules with max length capabilities ",
   "keywords": [
     "eslint",
